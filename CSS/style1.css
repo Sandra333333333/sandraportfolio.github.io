@@ -3,6 +3,7 @@
 html{
 	width: 100vw;
 	height: 100vh;
+	font-size: 62.5%;
 }
 
 body{
@@ -20,17 +21,17 @@ body{
 
 h2{
 	line-height: 150px;
-	font-size: 60px;
+	font-size: 6.0rem;
 	text-align: center;
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, .5);
 }
 
 h3{
-	font-size: 24px;
+	font-size: 2.4rem;
 }
 
 p{
-	font-size: 18px;
+	font-size: 1.8rem;
 	color: #777;
 	line-height: 1.6;
 }
@@ -53,12 +54,8 @@ header{
 
 
 header h1{
-	font-size: 90px;
+	font-size: 9.0rem;
 	margin-bottom: 25px;
-}
-
-header h3{
-	font-size: 24px;
 }
 
 
@@ -82,7 +79,7 @@ header h3{
 	display: block;
 	line-height: 65px;
 	text-align: center;
-	font-size: 22px;
+	font-size: 2.2rem;
 	color: #f5eeee;
 }
 
@@ -152,6 +149,7 @@ header h3{
 
 .collection a:hover{
 	opacity: 60%;
+	text-shadow:  3px 3px 3px rgba(0, 0, 0, .5);;
 }
 
 
@@ -171,7 +169,6 @@ header h3{
 
 .collection h3{
 	text-align: center;
-	font-size: 24px;
 	color: #f5eeee;
 }
 
@@ -203,12 +200,12 @@ header h3{
 }
 
 .exbottom h4{
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: bold;
 }
 
 .smallletter{
-	font-size: 14px;
+	font-size: 1.4rem;
 }
 
 .exbottom p{} 
@@ -246,7 +243,7 @@ header h3{
   color: #f5eeee;
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 2.0rem;
 }
 
 
@@ -348,10 +345,3 @@ footer p{
 
 /*----------------RWD--------------------------------*/
 
-/*@media screen and (max-width: 768px){
-  .main{
-    width: 100%;
-  }
-
-  .main li{}
-}*/
