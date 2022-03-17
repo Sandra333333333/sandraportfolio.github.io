@@ -24,6 +24,7 @@ h2{
 	font-size: 6.0rem;
 	text-align: center;
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, .5);
+	margin: 0 auto;
 }
 
 h3{
@@ -56,6 +57,7 @@ header{
 header h1{
 	font-size: 9.0rem;
 	margin-bottom: 25px;
+	text-align: center;
 }
 
 
@@ -67,6 +69,7 @@ header h1{
 
 .sel ul{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 
@@ -91,7 +94,9 @@ header h1{
 /*-----------關於ABOUT----------------------------*/
 .about{
 	flex-wrap: wrap;
-	height: 550px;	
+	height: 550px;
+	display: flex;
+	margin: 0 auto;	
 }
 
 .about h2{}
@@ -130,6 +135,8 @@ header h1{
 	background-color: #999B85;
 	overflow: hidden;
 	color: #f5eeee;
+	margin: 0 auto;
+	display: flex;
 }
 
 
@@ -176,6 +183,7 @@ header h1{
 .experience{
 	height: 550px;
 	margin: 0 auto;
+	display: flex;
 }
 
 
@@ -218,6 +226,8 @@ header h1{
 .skill{
 	justify-content: center;
 	background-color: #999b85;
+	margin: 0 auto;
+	display: flex;
 }
 
 .skill h2{
@@ -300,6 +310,8 @@ header h1{
 /*--------------TOP buttom---------------------------------*/
 .top{
 	height: 50px;
+	display: block;
+	margin: 0 auto;
 }
 
 .toTop{
