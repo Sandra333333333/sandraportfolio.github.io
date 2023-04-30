@@ -266,9 +266,7 @@ header h1{
 	/*flex-direction: column;*/
 }
 
-.social h2{
 
-}
 
 .so-bottom{
 	margin-bottom: 120px;
@@ -279,9 +277,7 @@ header h1{
 }
 
 .so-bottom li{
-
 	flex-grow: 1;
-
 }
 
 .so-bottom a{
@@ -294,14 +290,15 @@ header h1{
 	transition: all 1s;
 }
 
-.so-bottom img:hover{
+.so-bottom i:hover{
 	transform: scale(1.1);
 }
 
 
 
-.so-bottom img{
-	width: 60px;
+.so-bottom i{
+	/* width: 60px; */
+	font-size:70px;
 	transition: all .5s;
 }
 
