@@ -1,5 +1,83 @@
 @import url('reset.css');
 
+/*-- Reset Code --*/
+body { 
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+	font-family: times new roman,'微軟正黑體';
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family:  'Roboto';  */
+    /* 'Noto Sans TC', 'sans-serif' */
+}
+
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-decoration: none;
+}
+
+body a:hover {
+    text-decoration: none;
+}
+
+body a:focus, a:hover {
+    text-decoration: none;
+    outline:none;
+}
+
+input[type="button"], input[type="submit"], button.btn {
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+button[type="button"]:hover {
+    background-color: var(--wordColor);
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    /* font-family:'Roboto'; */
+    /* font-family: 'Montserrat', sans-serif; */
+    letter-spacing: 1.2px; 
+    /* 'Noto Sans TC', sans-serif */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+	list-style: none;  /* add */
+}
+
+label {
+    margin: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+:root {
+    --mainColor: #0087d7;
+    --wordColor: #095d95;
+    --lightColor: #c1e7ff;
+    --darkColor: #0d2546;
+    --dangerColor: #d70000;
+}
+
+/*-- //Reset-Code --*/
+
 html{
 	width: 100vw;
 	height: 100vh;
@@ -94,35 +172,35 @@ header h1{
 /*-----------關於ABOUT----------------------------*/
 .about{
 	flex-wrap: wrap;
-	height: 550px;
+	/* height: 550px; */  /* tododel*/
 	display: flex;
 	margin: 0 auto;	
 }
 
-.about h2{}
-
 .aboutbottom{
 	display: flex;
 	justify-content: center;
-  align-items: center;
+ 	align-items: center;
 }
 
-.aboutbottom img{
-	width: 250px;
+.about img{
+	max-width: 85%;
 	display: block;
 	box-shadow: 3px 3px 7px rgba(0, 0, 0, .3);
+	padding: 0;
 }
 
-.aboutbottom p{
-	margin-left: 60px;
-}
+/*  tododel */
+/* .about p{         
+	margin-left: 60px;     
+} */
 
-.aboutbottom a{
+.about a{
 	text-decoration: none;
-	color: #777;
+	color: #757065;
 }
 
-.aboutbottom a:hover{
+.about a:hover{
 	color: #999b85;
 }
 
@@ -131,16 +209,13 @@ header h1{
 
 /*-------------作品們COLLECTION------------------*/
 .collection{
-	height: 500px;
+	/* height: 500px; */  /* tododel */
 	background-color: #999B85;
 	overflow: hidden;
 	color: #f5eeee;
 	margin: 0 auto;
 	display: flex;
 }
-
-
-.collection h2{}
 
 .collection ul{
 	display: flex;
@@ -181,14 +256,10 @@ header h1{
 
 /*-----------經歷EXPERINCE-----------------------*/
 .experience{
-	height: 550px;
+	/* height: 550px; */    /* tododel */
 	margin: 0 auto;
 	display: flex;
 }
-
-
-.experience h2{}
-
 
 .exbottom{
 	margin: 0 auto;
@@ -234,8 +305,6 @@ header h1{
 	color: #f5eeee;
 }
 
-.sk-list{}
-
 .sk-list ul{
 	margin: 0 auto;
 	display: flex;
@@ -247,13 +316,13 @@ header h1{
 .sk-list li{
 	margin-bottom: 50px;
 	width: 300px;
-  line-height: 50px;
-  box-sizing: border-box;
-  border: 2px solid #f5eeee;
-  color: #f5eeee;
-  text-align: center;
-  text-decoration: none;
-  font-size: 2.0rem;
+	line-height: 50px;
+	box-sizing: border-box;
+	border: 2px solid #f5eeee;
+	color: #f5eeee;
+	text-align: center;
+	text-decoration: none;
+	font-size: 2.0rem;
 }
 
 
@@ -323,7 +392,7 @@ header h1{
 	text-align: center;
 	line-height: 45px;
 	margin: 0px auto;
-	border-radius: 5%;
+	border-radius: 10px;
 	font-size: 18px;
 	font-weight: bold;
 }
