@@ -243,10 +243,10 @@ header h1{
 
 .collection img{
 	display: block;
-	width: 230px;
-	height: 165px;
-	margin-bottom: 40px;
-	border: 5px solid rgba(245, 238, 238, 0.3);
+	/* width: 230px; */    /* tododel */ 
+	/* height: 165px; */   /* tododel */
+	/* margin-bottom: 40px; */   /* tododel */
+	/* border: 5px solid rgba(245, 238, 238, 0.3); */   /* tododel */
 }
 
 .collection h3{
