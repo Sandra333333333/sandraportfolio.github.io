@@ -269,13 +269,13 @@ header h1{
 }
 
 .exbottom .work1{
-	margin-top: 40px;
-	margin-left: 180px;
+	/* margin-top: 40px;*/   /* tododel */
+	/* margin-left: 180px; */   /* tododel */
 }
 
 .exbottom .work2{
-  margin-top: 40px;
-  margin-left: 180px;
+  /* margin-top: 40px; */   /* tododel */
+  /* margin-left: 180px; */   /* tododel */
 }
 
 .exbottom h4{
@@ -283,7 +283,7 @@ header h1{
 	font-weight: bold;
 }
 
-.smallletter{
+.remark {
 	font-size: 1.4rem;
 }
 
