@@ -346,14 +346,14 @@ header h1{
 }
 
 .so-bottom li{
-	flex-grow: 1;
+	/* flex-grow: 1; */    /* tododel */
 }
 
 .so-bottom a{
 	/*position: bottom center;*/
 	text-align: center;
 	flex-grow: 1;
-	margin-left: 110px;
+	/* margin-left: 110px; */   /*tododel */
 	/*display: block;*/
 	/*float: left;*/
 	transition: all 1s;
