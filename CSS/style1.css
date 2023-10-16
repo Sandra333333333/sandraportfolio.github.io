@@ -142,7 +142,7 @@ header h1{
 /*---------主選單---------------------------------*/
 .sel{
 	background-color: #757065;
-	height: 65px;
+	/* height: 65px; */
 }
 
 .sel ul{
@@ -268,16 +268,6 @@ header h1{
   /*align-items: center;*/
 }
 
-.exbottom .work1{
-	/* margin-top: 40px;*/   /* tododel */
-	/* margin-left: 180px; */   /* tododel */
-}
-
-.exbottom .work2{
-  /* margin-top: 40px; */   /* tododel */
-  /* margin-left: 180px; */   /* tododel */
-}
-
 .exbottom h4{
 	font-size: 1.8rem;
 	font-weight: bold;
@@ -307,14 +297,14 @@ header h1{
 
 .sk-list ul{
 	margin: 0 auto;
-	display: flex;
-	width: 1000px;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	/* display: flex; */
+	/* width: 1000px; */
+	/* flex-wrap: wrap; */
+	/* justify-content: space-between; */
 }
 
 .sk-list li{
-	margin-bottom: 50px;
+	margin-bottom: 45px;
 	width: 300px;
 	line-height: 50px;
 	box-sizing: border-box;
