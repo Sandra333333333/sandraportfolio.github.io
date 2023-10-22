@@ -69,10 +69,10 @@ label {
 }
 
 :root {
-    --mainColor: #0087d7;
-    --wordColor: #095d95;
-    --lightColor: #c1e7ff;
-    --darkColor: #0d2546;
+    --mainColor: #999b85;
+    --wordColor: #808080;
+    --lightColor: #f5eeee;
+    --darkColor: #757065;
     --dangerColor: #d70000;
 }
 
@@ -231,7 +231,7 @@ header h1{
 
 .collection a:hover{
 	opacity: 60%;
-	text-shadow:  3px 3px 3px rgba(0, 0, 0, .5);;
+	text-shadow:  3px 3px 3px rgba(0, 0, 0, .5);
 }
 
 
@@ -277,7 +277,7 @@ header h1{
 	font-size: 1.4rem;
 }
 
-.exbottom p{} 
+
 
 
 
@@ -318,11 +318,9 @@ header h1{
 
 /*--------------社交軟體SOCIAL-------------------*/
 .social{
-	/* height: 300px; */  	/* tododel */
 	display: flex;
 	margin: 0 auto;
 	position: relative;
-	/*flex-direction: column;*/
 }
 
 
@@ -335,17 +333,11 @@ header h1{
 	justify-content: center;
 }
 
-.so-bottom li{
-	/* flex-grow: 1; */    /* tododel */
-}
+
 
 .so-bottom a{
-	/*position: bottom center;*/
 	text-align: center;
 	flex-grow: 1;
-	/* margin-left: 110px; */   /*tododel */
-	/*display: block;*/
-	/*float: left;*/
 	transition: all 1s;
 }
 
@@ -356,7 +348,6 @@ header h1{
 
 
 .so-bottom i{
-	/* width: 60px; */
 	font-size:70px;
 	transition: all .5s;
 }
@@ -409,7 +400,29 @@ footer p{
 }
 
 
+/*================= PAGE PATTERN ===================*/
+
+.btn-back {
+	border: 2px solid rgba(245, 238, 238, 0.8);
+	width: 190px;
+	color: rgba(245, 238, 238, 0.8);
+	text-align: center;
+	line-height: 45px;
+	margin: 0px auto;
+	border-radius: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	transition: all 1s;
+}
+
+.btn-back:hover {
+	text-shadow:  3px 3px 3px rgba(0, 0, 0, .5);
+	color: white;
+	border: 2px solid white;
+}
 
 
-/*----------------RWD--------------------------------*/
+
+
+
 
